@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alle Vapers</title>
+</head>
+<body>
+<h2>Alle Vapers</h2>
+{% for v in Vapers %}
+    Id: {{ v.Id }}<br>
+    Navn: {{ v.Navn }}<br>
+    Aroma: {{ v.Aroma }}<br>
+    Effekt: {{ v.Effekt }}<br>
+    Butik: {{ v.Butik }}<br>
+    Uge: {{ v.Uge }}<br>
+    <br>
+{% endfor %}
+
+</body>
+</html>
